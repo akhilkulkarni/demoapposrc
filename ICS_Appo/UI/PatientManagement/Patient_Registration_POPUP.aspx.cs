@@ -83,6 +83,7 @@ public partial class UI_PatientManagement_Patient_Registration_POPUP : System.We
         rdo_outside.Enabled = false;
 
         txt_appointmentDate.Text = objPatient.AppointmentDate;
+        //Testing
 
     }
 
