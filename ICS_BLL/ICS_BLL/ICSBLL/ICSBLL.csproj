@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{57C74633-FB0A-4D32-8DA1-E3F9E8293701}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ICSBLL</RootNamespace>
+    <AssemblyName>ICSBLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Admin\Base_BLL_AdminSettings.cs" />
+    <Compile Include="BLL\Admin\Base_BLL_Login.cs" />
+    <Compile Include="BLL\Admin\Base_BLL_PageCommonSettings.cs" />
+    <Compile Include="BLL\Admin\Base_BLL_User.cs" />
+    <Compile Include="BLL\Appointment\Base_BLL_AppointmentSchedule.cs" />
+    <Compile Include="BLL\Appointment\Base_BLL_PatientQueue.cs" />
+    <Compile Include="BLL\Appointment\Base_BLL_StatusQueue.cs" />
+    <Compile Include="BLL\Base_BLL_Constants.cs" />
+    <Compile Include="BLL\Base_BLL_Cryptography.cs" />
+    <Compile Include="BLL\Base_BLL_MenuMaster.cs" />
+    <Compile Include="BLL\Common\Base_BLL_CommonFunction.cs" />
+    <Compile Include="BLL\PatientManagement\Base_BLL_DTO_PatientAutoComplete.cs" />
+    <Compile Include="BLL\PatientManagement\Base_BLL_Patient.cs" />
+    <Compile Include="BLL\Common\Base_BLL_CommonSettings.cs" />
+    <Compile Include="BLL\Report\Base_BLL_Report_Collection.cs" />
+    <Compile Include="DAL\CDatabase.cs" />
+    <Compile Include="DAL\SqlHelperParameterCache.cs" />
+    <Compile Include="DAL\SQLDatabase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

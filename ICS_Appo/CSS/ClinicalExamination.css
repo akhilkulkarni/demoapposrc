@@ -1,0 +1,109 @@
+﻿
+body,html  
+{	
+
+	
+	
+	
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana;
+	text-align: center;
+
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #DEE3E7;
+	scrollbar-3dlight-color: #D1D7DC;
+	scrollbar-arrow-color: #006699;
+	scrollbar-track-color: #EFEFEF;
+	scrollbar-darkshadow-color: #98AAB1;
+    
+	
+}
+
+.QHeadingRow
+    {
+            
+		filter:progid:DXImageTransform.Microsoft.Gradient (GradientType:0,StartColorStr:'Khaki',EndColorStr:'White');             
+    
+        font-weight: bold; 
+        font-size: 11px; 
+        color: #000099; 
+       
+        text-align:left;
+        
+   } 
+   
+.Question
+{
+	color:#000099;
+	font-weight:normal;
+	background-color: white;
+	
+	BORDER-RIGHT: #eb922c 1px;
+    BORDER-TOP: #eb922c 1px;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: #eb922c 1px;
+  
+    BORDER-BOTTOM: #eb922c 1px;
+    FONT-FAMILY: Verdana;
+    HEIGHT: 12px;
+ 
+	
+}
+
+.SubQuesion
+{
+	color:Black;
+	
+	font-weight:normal;
+	background-color: PapayaWhip;
+	
+	BORDER-RIGHT: #eb922c 1px;
+    BORDER-TOP: #eb922c 1px;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: #eb922c 1px;
+  
+    BORDER-BOTTOM: #eb922c 1px;
+    FONT-FAMILY: Verdana;
+    HEIGHT: 12px;
+	
+}
+
+.tablebg
+{
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 3px;
+    PADDING-BOTTOM: 3px;
+    COLOR: black;
+    PADDING-TOP: 3px;
+ 
+    
+    BORDER-RIGHT:solid 1px white;
+    BORDER-TOP:solid 1px white;
+    BORDER-BOTTOM:solid 1px white;
+    BORDER-LEFT:solid 1px white;
+}
+.ValueColumn
+{
+    BORDER-RIGHT: #eb922c 1px;
+    BORDER-TOP: #eb922c 1px;
+    FONT-SIZE: 11px;
+    BORDER-LEFT: #eb922c 1px;
+    COLOR: black;
+    BORDER-BOTTOM: #eb922c 1px;
+    FONT-FAMILY: Verdana;
+    HEIGHT: 12px;
+    BACKGROUND-COLOR: white
+}
+
+.VerticalCheckBoxList
+{
+	color: Black; 
+	
+	border-color: whitesmoke;
+	border-width: 1px; 
+	border-style: Dotted; 
+	font-family: Verdana; 
+	font-size: 11px;
+	width: 100%;
+}

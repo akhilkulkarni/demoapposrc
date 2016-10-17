@@ -1,0 +1,183 @@
+﻿html,body,form
+{
+    height:100%;  
+    margin:0px;  
+    font-family:verdana;
+    font-size:10pt;
+/*    Arial, Helvetica, sans-serif*/
+}
+
+.displaynone
+{
+    display:none;    
+}
+ .MainBackgroundScreen
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+ .Screenlayout
+{
+    /*height: 100%;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    position: absolute;
+    top:140px;
+    bottom:55px;
+}
+      
+.Image_ProfilePic_BIG
+{
+    border:2px solid black;
+}
+
+.Image_UserPic
+{
+    border:1px solid white;
+    border-radius: 50% 50% 50% 50%;
+    -moz-box-shadow:#96845A 3px 3px 3px;
+    -webkit-box-shadow:#96845A 3px 3px 3px;
+    box-shadow:#96845A 3px 3px 3px;
+     outline: none;
+}  
+.LoginDiv
+{
+    position:absolute;
+    z-index:10;
+    background-color:transparent;
+    width:257px;
+    height:86px;
+    top: 250px;
+    left: 704px;
+ 
+    background-position:center;
+   /* background-size:100%;*/
+    background-repeat:no-repeat;
+  
+}
+.LoginBackDiv
+{
+    position:absolute;
+    z-index:10;
+    /*background-color:;*/
+    width:413px;
+    height:360px;
+    top: 200px;
+    left: 604px;
+   /* background-image:url('../Image/login_background.png');*/
+    background-position:center;
+    background-size:100%;
+    background-repeat:no-repeat;
+  
+}
+.Div_LockMSG
+{
+    width:auto;
+    height:50px;
+    border-style:solid;
+    border-width:3px;
+    border-color:Gray;        
+    z-index:999999999999999999999999;
+    position:absolute;
+    bottom:0px;
+}
+
+.Div_MainLoginBack
+{
+    width:100%;
+    height:100%;
+    background-image:url('../Image/Login3.png');
+    
+    background-position:center;
+    background-size:100%;
+    background-repeat:no-repeat;
+    top:0px;
+    left:0px;
+   
+    margin:0px;
+}
+
+
+.Table_FullWidth
+
+{
+    width:100%;
+ 
+}
+.Table_Full
+{
+    width:100%;
+    height:100%;
+ }
+ .Table_MainTable
+ {
+    width:100%;
+    height:100%;
+     border-style:none;
+     padding:0px;   
+ }
+ .Row_Header
+ {
+    height:90px;    
+    width:100%;
+ }
+ .Row_Footer
+ {
+ height:20px;    
+ width:100%;
+ }
+ /*
+================================================================================================
+                                    Label
+================================================================================================
+*/
+.Label_NonHighlighted
+{
+     font-size:25pt;   
+    font-weight:bold;
+}
+.Label_Highlighted
+{
+     font-size:40pt;   
+    font-weight:bold;
+}
+
+.label_Normal
+{
+    font-size:10pt;   
+    font-weight:normal;
+}
+
+.label_Bold
+{
+    font-size:9pt;
+    font-weight:bold;
+}
+
+.label_Italic
+{
+    font-size:10pt;
+    font-style:italic;
+    font-weight:normal;
+}
+.label_Header
+{
+    font-size:9pt;
+    font-weight:Bold;
+}
+.label_SubHeader
+{
+    font-size:9pt;
+    font-weight:Bold;
+}
+.Label_LockDivMSG
+{
+    font-size:9pt;
+    font-weight:Bold;
+ }
