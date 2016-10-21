@@ -45,6 +45,7 @@ partial class UC_ListGrid_New : System.Web.UI.UserControl
         {
             ViewState["CurrentData"] = value;
             ViewState["DummyData"] = value;
+            defaultConfigLoader();
             ListGrid_SearchSort();
             FillGrid();
         }
@@ -121,8 +122,25 @@ partial class UC_ListGrid_New : System.Web.UI.UserControl
         HttpContext.Current.Response.End();
 
     }
+    protected void defaultConfigLoader()
+    {
 
-    protected void UC_ListGrid_Load(object sender, EventArgs e)
+        if ((ViewState["CurrentData"] != null))
+        {
+            DataSet Ds_CurrDataSet = (DataSet)ViewState["CurrentData"];
+
+            if (Ds_CurrDataSet.Tables.Count > 0)
+            {
+                foreach (DataColumn Col in Ds_CurrDataSet.Tables[0].Columns)
+                {
+                    hdn_ColumnHeader.Value = hdn_ColumnHeader.Value + "$" + Col.ColumnName + " " + (Col.DataType == typeof(Int32) | Col.DataType == typeof(bool) | Col.DataType == typeof(double) ? "=" : "like");
+                }
+                hdn_SortExpresion.Value = Ds_CurrDataSet.Tables[0].Columns[0].ColumnName + "| ASC";
+            }
+        }
+    
+    }
+    protected void UC_ListGrid_New_Load(object sender, EventArgs e)
     {
 
         try

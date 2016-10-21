@@ -188,13 +188,12 @@
 }
 .DIV_PatientQueue_INFO
 {
-   background-color:#D1C7DD;
-   border-color:GREY;
+ font-size:11px;
+   /*border-color:GREY;
    border-style:solid;
    border-width:1px;
-   border-radius:8px 0px 8px 0px;  
-   width:400px;   
-   height:180px;
+   border-radius:8px 0px 8px 0px;*/  
+   height:150px;
     margin-right:10px;
     z-index:5;
 }
@@ -237,17 +236,24 @@
 .DIV_patientTocken
 
     {
+    line-height:175px;
+    color:white;
+    text-align:center;
+    vertical-align:central;
+    font-family:'Arial Rounded MT';
+    font-size:90px;
         background-color:#93D9EA;
-    -moz-box-shadow:#666 0px 2px 3px;
-    -webkit-box-shadow:#666 0px 2px 3px;
-    box-shadow:#666 0px 2px 3px;
+        border:1px solid #E2E2E2;
+        /*-moz-box-shadow:#666 0px 2px 3px;
+        -webkit-box-shadow:#666 0px 2px 3px;
+        box-shadow:#666 0px 2px 3px;
 		
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
     border-radius:10px;
     -ms-border-radius:10px;
 	
-    behavior:url(PIE.htc); 
+    behavior:url(PIE.htc);*/ 
     
 }
 
@@ -487,14 +493,7 @@ FieldSet_PageHeader
     font-weight:Bold;
     font-family:Segoe UI,Arial,Verdana,Tahoma,sans-serif;
 }
-
-.Label_TockenNo
-{
-    font-size:30pt;
-   font-weight:bold; 
-   color:White;
-   margin-Top:50px;
-}
+ 
 
 
 .dv_ShowHideIcon

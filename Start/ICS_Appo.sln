@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ICS_Appo", "..\ICS_Appo\", "{5ED3610C-FC7B-4A03-8B71-2B771A6A06E5}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
@@ -18,7 +18,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ICS_Appo", "..\ICS_Appo\", 
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "4929"
+		VWDPort = "56498"
 	EndProjectSection
 	ProjectSection(ProjectDependencies) = postProject
 		{57C74633-FB0A-4D32-8DA1-E3F9E8293701} = {57C74633-FB0A-4D32-8DA1-E3F9E8293701}
