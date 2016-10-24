@@ -14,6 +14,12 @@ namespace ICSBLL.BLL.Appointment
         public string CurrentID;
         public string NextID;
 
+        public string PrevIMG;
+        public string CurrentIMG;
+        public string NextIMG;
+
+        public string CurrentStatus;
+
         public string PrevName
         {
             get;
